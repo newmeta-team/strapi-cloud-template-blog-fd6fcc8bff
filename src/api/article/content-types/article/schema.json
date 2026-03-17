@@ -47,6 +47,9 @@
       "target": "api::category.category",
       "inversedBy": "articles"
     },
+    "featured": {
+      "type": "boolean"
+    },
     "blocks": {
       "type": "dynamiczone",
       "components": [
